@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+
+
+        <item
+            android:id="@+id/nav_trailer"
+            android:icon="@drawable/ic_movie_filter"
+            android:title="Trailers" />
+        <item
+            android:id="@+id/nav_Hollywood"
+            android:icon="@drawable/ic_movie_filter"
+            android:title="Hollywood Movies" />
+        <item
+            android:id="@+id/nav_Bollywood"
+            android:icon="@drawable/ic_local_movies"
+            android:title="Bollywood Movies" />
+        <item
+            android:id="@+id/nav_TV"
+            android:icon="@drawable/ic_live_tv"
+            android:title="TV" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Choices" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>
